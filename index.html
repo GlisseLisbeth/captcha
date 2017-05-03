@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Captcha</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+<body>
+  <center>
+    <h1>Recaptcha</h1>
+    <div class="container">
+      <div class="inferior-captcha">
+          <span id="recaptcha"></span>
+      </div>
+      <div class="superior-captcha">
+        <div class="left-captcha">
+          <input id="entrada-recaptcha" type="text">
+        </div>
+        <div class="right-captcha">
+
+           <img src="assets/img/recaptcha.png" alt="" width="90" height="90">
+        </div>
+        <div id="check"><span><i class="fa fa-check" aria-hidden="true"></i></span></div>
+        <div id="refresh"><span><i class="fa fa-refresh" aria-hidden="true"></i></div>
+      </div>
+    </div>
+  </center>
+  <script src="assets/js/app.js" charset="utf-8"></script>
+</body>
+</html>
